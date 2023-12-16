@@ -1,0 +1,13 @@
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+* {
+    @include reset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
