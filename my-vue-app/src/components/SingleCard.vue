@@ -15,6 +15,7 @@
         <div class="imgWrapper">
             <img :src="thumb" :alt="series + '\'s thumb'">
         </div>
+        <span>Price: {{ price }}</span>
         <p> {{ series }} </p>
     </article>
 </template>
@@ -27,6 +28,7 @@
         width: calc(100% / 6 - 3rem);
         margin-right: 1rem;
         margin-bottom: 1rem;
+        position: relative;
 
         .imgWrapper {
             width: 180px;
@@ -39,7 +41,7 @@
                 object-position: top;
             }
             img:hover{
-                opacity: 0.5;
+                opacity: 0.3;
             }
         }
 
@@ -48,6 +50,14 @@
             color: white;
             text-transform: uppercase;
             font-size: 1rem;
+        }
+        span{
+            color: white;
+            position: absolute;
+            top: 60px;
+            right: 45px;
+            font-size: 1.3rem;
+            display: none;
         }
 
     }

@@ -143,8 +143,7 @@
                 font-weight: 700;
             }
             button:hover{
-                background-color: rgb(108, 108, 241);
-                font-size: 1rem;
+                opacity: .7;
             }
         }
         
