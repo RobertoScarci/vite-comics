@@ -87,16 +87,20 @@
         background-size: cover;
         div.wrapper {
             height: 100%;
-            margin: 0 auto;
+            width: 90%;
+            margin-left: 6rem;
             @include flex();
             div.column {
-                margin-right: 2rem;
+
                 ul {
                     list-style: none;
                     color: $text-color;
                     li {
                         margin-bottom: 0.5rem;
                         font-size: 0.8rem;
+                    }
+                    li:hover{
+                        color: white;
                     }
                 }
                 .firstUl {
@@ -112,23 +116,24 @@
         }
     }
     footer .bottomFooter {
-        height: 140px;
+        padding: 2rem 0;
         background-color: $secondary-color;
         .wrapper {
-            width: 90%;
+            width: 80%;
             height: 100%;
             margin: 0 auto;
             @include flex(row, space-between, center);
             button {
-                padding: 1rem 1.5rem;
+                padding: 1rem .5rem;
                 background-color: transparent;
                 border: 2px solid $main-color;
                 text-transform: uppercase;
                 color: white;
-                font-weight: 500;
-                font-size: 1.2rem;
+                font-weight: 600;
+                font-size: 1.3rem;
                 &:hover {
                     color: $main-color;
+                    opacity: 0.8;
                 }
             }
             div.socials {
@@ -142,9 +147,9 @@
                     @include flex(row, center, center);
                 }
                 .iconWrapper {
-                    width: 40px;
-                    height: 40px;
-                    margin-right: 1rem;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: .8rem;
                     border-radius: 50%;
                     background-color: $text-color;
                     @include flex(row, center, center);
