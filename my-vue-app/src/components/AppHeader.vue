@@ -42,15 +42,15 @@
                         active: false
                     },
                     {
-                        name: "Tv",
-                        active: false
-                    },
-                    {
                         name: "Collectibles",
                         active: false
                     },
                     {
                         name: "Videos",
+                        active: false
+                    },
+                    {
+                        name: "Fans",
                         active: false
                     },
                     {
@@ -70,7 +70,7 @@
     @use "../styles/partials/variables" as *;
     @use "../styles/partials/mixins" as *;
     header {
-        width: 90%;
+        width: 95%;
         height: 110px;
         @include flex();
         div.imgWrapper {
