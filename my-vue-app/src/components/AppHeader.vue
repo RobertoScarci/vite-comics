@@ -70,7 +70,7 @@
     @use "../styles/partials/variables" as *;
     @use "../styles/partials/mixins" as *;
     header {
-        width: 100%;
+        width: 90%;
         height: 110px;
         @include flex();
         div.imgWrapper {
@@ -99,6 +99,7 @@
             }
             li:hover{
                 color: #0082F9;
+                border-bottom: 2px solid $main-color;
             }
         }
     }
