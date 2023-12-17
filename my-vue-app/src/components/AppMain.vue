@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="hero"></div>
-        <ListComics/>
+        <ListDc/>
     </main>
 </template>
 
@@ -23,9 +23,9 @@
         background-color: $list-comics-color;
         .hero {
             width: 100%;
-            height: 100px;
+            height: 300px;
     
-            background-image: url("../assets/img/jumbotron.jpg");
+            background-image: url("../assets/jumbotron.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
